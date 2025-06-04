@@ -1,0 +1,33 @@
+*{
+    font-family: serif;
+    font-size: larger;
+}
+
+h1{
+    margin-left: 10rem;
+    margin-bottom: 10rem;
+}
+
+label{
+    margin: 1rem;
+}
+
+input:not([type="radio"]):not([type="checkbox"]), button {
+	appearance: none;
+	border: none;
+	outline: none;
+    border-radius: 2rem;
+	background: rgb(204, 204, 204);
+	cursor: initial;
+}
+
+#save{
+    margin-left: 3rem;
+    border-radius: 10rem;
+    background-color: aqua;
+}
+
+ul{
+    padding-left: 12rem;
+    padding-top: 1rem;
+}
